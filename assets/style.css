@@ -81,6 +81,14 @@ input{
     text-align: left;
 }
 
+.search-input:hover{
+    box-shadow: 0px 0px 10px -6px rgb(45, 45, 45);
+}
+
+.search-input:focus-within{
+    box-shadow: 0px 0px 10px -6px rgb(45, 45, 45);
+}
+
 .svg-img-search{
     width: 20px;
     height: 20px;
@@ -91,6 +99,11 @@ input{
     top: 2px;
     width: 25px;
     height: 25px;
+    opacity: 0.70;
+}
+
+.svg-img-apps:hover{
+    opacity: 1;
 }
 
 .footer-link-spacing{
@@ -127,6 +140,11 @@ input{
     border-radius: 4px;
     margin-left: 4px;
     margin-right: 4px;
+}
+
+.gray-button:hover{
+    color: #000;
+    border: 1px solid #c6c6c6;
 }
 
 .voice-icon{
